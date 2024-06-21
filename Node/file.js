@@ -1,10 +1,13 @@
  const { log } = require("console");
-const fs = require("fs"); 
+ const fs = require("fs"); 
+ const os = require('os'); 
+
+ console.log(os.cpus().length);
 
 //  // Sync...
 //  fs.writeFileSync("./test.txt", "Hello boys");
 
- // Async...
+//  // Async...
 // fs.writeFile("./test.txt", "Hello boys Async", (err)=>{});
 
 // const result = fs.readFileSync("./contact.txt", "utf-8")
@@ -18,4 +21,4 @@ const fs = require("fs");
 //     }
 // });
 
-// Appendfile
+
