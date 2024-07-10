@@ -6,7 +6,7 @@
     fs.appendFile("log.txt", log, (err, data) =>{
         switch(req.url){
             case "/":
-                res.end("HomePage");
+                res.end("HomePage")
                 break;
                 case "/about":
                 res.end("I am Rohit");
